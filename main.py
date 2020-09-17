@@ -22,7 +22,7 @@ def main (argv):
 #主类
 class Similarity():
 
-    #初始化，传入两个字符串。
+    # 初始化，传入两个字符串。
     def __init__(self, path1, path2):
 
         def read(doc_path):
