@@ -6,7 +6,7 @@ import sys
 import os
 
 """
-调试部分
+调试部分，请忽略
 主要内容放到执行函数里
 def main (argv):
     path1 = argv[1]
