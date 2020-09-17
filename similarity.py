@@ -5,6 +5,7 @@ from functools import reduce
 import sys
 
 """
+主要内容放到执行函数里
 def main (argv):
     path1 = argv[1]
     path2 = argv[2]
@@ -92,5 +93,5 @@ if __name__ == '__main__':
     #print('%.2f' % s.similar())
     # 写入文件
     with open(path3, 'w') as file_project:
-        file_project.write('%.2f' % s.similar())
+        file_project.write("文本："+path1 + " 和" + "文本：" + path2 +" 的相似度："+'%.2f' % s.similar())
     print(0)
